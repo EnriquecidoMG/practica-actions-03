@@ -1,0 +1,5 @@
+Estructura principal del proyecto.
+<<<<<<< HEAD
+=======
+Línea 1: Contenido de la rama de login.
+>>>>>>> feature/login
