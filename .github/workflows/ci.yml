@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Ejecutar pruebas
-        run: npm test && exit 1
+        run: npm test
 
       - name: Usar secreto sin exponerlo
         env:
