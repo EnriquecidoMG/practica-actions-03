@@ -1,0 +1,8 @@
+{
+  "name": "practica-actions-03",
+  "version": "1.0.0",
+  "description": "Pruebas de GitHub Actions para la práctica 3",
+  "scripts": {
+    "test": "node -e \"const fs=require('fs'); const files=['index.html','login.html','style.css']; const missing=files.filter(file=>!fs.existsSync(file)); if(missing.length){console.error('Faltan archivos:',missing.join(', '));process.exit(1)} console.log('Pruebas correctas: archivos principales encontrados')\""
+  }
+}
